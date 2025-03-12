@@ -4,16 +4,28 @@ import { Badge } from "@/components/ui/badge";
 
 const PROJECTS = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce solution with React and Node.js",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40",
-    tags: ["React", "Node.js", "PostgreSQL"]
+    title: "Chalava Pehla Chakrview",
+    description: "Complete graphic design work for web series, including promotional materials and visual assets",
+    image: "https://images.unsplash.com/photo-1601158935942-52255782d322",
+    tags: ["Graphic Design", "Motion Graphics", "Social Media"]
   },
   {
-    title: "Project Management Tool",
-    description: "Collaborative project management application",
-    image: "https://images.unsplash.com/photo-1523467327888-a8a445992901",
-    tags: ["TypeScript", "Express", "MongoDB"]
+    title: "Eternal Hits of Jatin Lalit",
+    description: "Designed comprehensive social media creatives and promotional banners for music event",
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    tags: ["Event Design", "Social Media", "Branding"]
+  },
+  {
+    title: "Political Advertising Campaign",
+    description: "Created impactful visual content for political advertising and campaign materials",
+    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    tags: ["Advertising", "Campaign Design", "Visual Communication"]
+  },
+  {
+    title: "Gaming Community Designs",
+    description: "Developed engaging visual assets for gaming communities and streaming platforms",
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+    tags: ["Gaming", "Streaming", "Community Design"]
   }
 ];
 
@@ -30,7 +42,7 @@ export default function Portfolio() {
         >
           <h2 className="text-3xl font-bold mb-4">My Portfolio</h2>
           <p className="text-muted-foreground">
-            Here are some of my recent projects that showcase my skills and expertise.
+            Here are some of my notable projects that showcase my creative expertise and professional experience.
           </p>
         </motion.div>
 
