@@ -29,7 +29,7 @@ export default function Hero() {
           >
             <div className="absolute inset-0 bg-primary/10 rounded-lg transform -rotate-6 scale-105 transition-transform group-hover:rotate-0 group-hover:scale-110"></div>
             <img
-              src="/1000059416.jpg"
+              src="/profile-image.jpg"
               alt="Md Aftab Alam"
               className="relative w-full rounded-lg shadow-xl transform transition-transform group-hover:scale-105"
             />
