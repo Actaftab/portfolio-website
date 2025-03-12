@@ -3,8 +3,19 @@ import { createServer } from "http";
 import { storage } from "./storage";
 import { insertContactSchema } from "@shared/schema";
 import { ZodError } from "zod";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export async function registerRoutes(app: Express) {
+  // Serve the resume PDF file
+  app.get("/MdAftabAlamresume.pdf", (req, res) => {
+    const resumePath = path.join(__dirname, "../attached_assets/MdAftabAlamresume.pdf");
+    res.sendFile(resumePath);
+  });
+
   app.post("/api/contact", async (req, res) => {
     try {
       const contact = insertContactSchema.parse(req.body);
