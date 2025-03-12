@@ -1,6 +1,41 @@
+# Dependencies
 node_modules
+.pnp
+.pnp.js
+
+# Production
 dist
-.DS_Store
+build
 server/public
+
+# Development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode
+.idea
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Replit specific
+.breakpoints
+.replit
+.config
+replit.nix
+.upm
+.cache
 vite.config.ts.*
 *.tar.gz
