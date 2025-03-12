@@ -6,19 +6,19 @@ const PROJECTS = [
   {
     title: "Chalava Pehla Chakrview",
     description: "Complete graphic design work for web series, including promotional materials and visual assets",
-    image: "https://images.unsplash.com/photo-1601158935942-52255782d322",
+    image: "/chalava.jpg",
     tags: ["Graphic Design", "Motion Graphics", "Social Media"]
   },
   {
     title: "Eternal Hits of Jatin Lalit",
     description: "Designed comprehensive social media creatives and promotional banners for music event",
-    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4",
+    image: "/jatin-lalit.jpg",
     tags: ["Event Design", "Social Media", "Branding"]
   },
   {
     title: "Political Advertising Campaign",
     description: "Created impactful visual content for political advertising and campaign materials",
-    image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
+    image: "/campaign-image.jpg",
     tags: ["Advertising", "Campaign Design", "Visual Communication"]
   },
   {
