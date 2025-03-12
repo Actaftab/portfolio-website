@@ -18,9 +18,11 @@ export default function Resume() {
           <p className="text-muted-foreground mb-6">
             Download my resume or view my experience below
           </p>
-          <Button className="gap-2">
-            <Download className="h-4 w-4" />
-            Download Resume
+          <Button asChild className="gap-2">
+            <a href="/MdAftabAlamresume.pdf" download>
+              <Download className="h-4 w-4" />
+              Download Resume
+            </a>
           </Button>
         </motion.div>
 
@@ -35,17 +37,17 @@ export default function Resume() {
             <div className="space-y-4">
               <Card>
                 <CardContent className="pt-6">
-                  <h4 className="font-medium">Senior Developer</h4>
+                  <h4 className="font-medium">Senior Graphic Designer</h4>
                   <p className="text-sm text-muted-foreground">
-                    Tech Corp • 2020 - Present
+                    PTS Trading Services Pvt. Ltd. • Jan 2023 - Present
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="pt-6">
-                  <h4 className="font-medium">Frontend Developer</h4>
+                  <h4 className="font-medium">Graphic Designer & Video Editor</h4>
                   <p className="text-sm text-muted-foreground">
-                    Web Agency • 2018 - 2020
+                    Digital Sukoon Pvt. Ltd., Mumbai • Feb 2018 - Jan 2020
                   </p>
                 </CardContent>
               </Card>
@@ -62,17 +64,17 @@ export default function Resume() {
             <div className="space-y-4">
               <Card>
                 <CardContent className="pt-6">
-                  <h4 className="font-medium">Master's in Computer Science</h4>
+                  <h4 className="font-medium">B.Sc. in AI & Data Science</h4>
                   <p className="text-sm text-muted-foreground">
-                    University • 2016 - 2018
+                    IIT Jodhpur • Oct 2024 - Present
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="pt-6">
-                  <h4 className="font-medium">Bachelor's in Computer Science</h4>
+                  <h4 className="font-medium">B.Tech in Computer Science</h4>
                   <p className="text-sm text-muted-foreground">
-                    University • 2012 - 2016
+                    BTL Institute of Technology, Bangalore • (Dropped out)
                   </p>
                 </CardContent>
               </Card>
