@@ -11,8 +11,8 @@ const __dirname = path.dirname(__filename);
 
 export async function registerRoutes(app: Express) {
   // Serve static assets
-  app.get("/1741771396549.jpg", (req, res) => {
-    const imagePath = path.join(__dirname, "../attached_assets/1741771396549.jpg");
+  app.get("/1000059416.jpg", (req, res) => {
+    const imagePath = path.join(__dirname, "../attached_assets/1000059416.jpg");
     res.sendFile(imagePath);
   });
 
