@@ -10,6 +10,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export async function registerRoutes(app: Express) {
+  // Serve static assets
+  app.get("/1741771396549.jpg", (req, res) => {
+    const imagePath = path.join(__dirname, "../attached_assets/1741771396549.jpg");
+    res.sendFile(imagePath);
+  });
+
   // Serve the resume PDF file
   app.get("/MdAftabAlamresume.pdf", (req, res) => {
     const resumePath = path.join(__dirname, "../attached_assets/MdAftabAlamresume.pdf");

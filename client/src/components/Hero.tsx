@@ -19,8 +19,20 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto text-center"
+          className="max-w-4xl mx-auto text-center"
         >
+          <motion.div
+            initial={{ scale: 0.5, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-primary/20"
+          >
+            <img
+              src="/1741771396549.jpg"
+              alt="Md Aftab Alam"
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
             Hello, I'm Md Aftab Alam
           </h1>
