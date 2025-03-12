@@ -14,25 +14,24 @@ export default function About() {
         >
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
           <p className="text-muted-foreground">
-            I'm a passionate developer with over 5 years of experience in creating
-            beautiful and functional web applications. I specialize in React,
-            TypeScript, and modern web technologies.
+            I am a Graphic Designer & Video Editor with 5+ years of experience, specializing in creative design and visual storytelling. 
+            Currently pursuing B.Sc. in AI & Data Science at IIT Jodhpur while working as a Senior Graphic Designer.
           </p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              title: "Frontend Development",
-              description: "Building responsive and accessible web applications with modern frameworks"
+              title: "Design Skills",
+              description: "Expert in Adobe Creative Suite, including Photoshop, After Effects, and Premiere Pro"
             },
             {
-              title: "Backend Development",
-              description: "Creating scalable APIs and server-side applications"
+              title: "Creative Services",
+              description: "Specializing in movie posters, social media marketing, motion graphics, and streaming platform visuals"
             },
             {
-              title: "UI/UX Design",
-              description: "Designing intuitive user interfaces and experiences"
+              title: "Video Production",
+              description: "Professional video editing, motion graphics, and Final Cut Pro expertise"
             }
           ].map((skill, index) => (
             <motion.div
