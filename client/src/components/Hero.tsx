@@ -22,15 +22,16 @@ export default function Hero() {
           className="max-w-4xl mx-auto text-center"
         >
           <motion.div
-            initial={{ scale: 0.5, opacity: 0 }}
+            initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden border-4 border-primary/20"
+            className="relative max-w-md mx-auto mb-12 group"
           >
+            <div className="absolute inset-0 bg-primary/10 rounded-lg transform -rotate-6 scale-105 transition-transform group-hover:rotate-0 group-hover:scale-110"></div>
             <img
-              src="/1741771396549.jpg"
+              src="/1000059416.jpg"
               alt="Md Aftab Alam"
-              className="w-full h-full object-cover"
+              className="relative w-full rounded-lg shadow-xl transform transition-transform group-hover:scale-105"
             />
           </motion.div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
